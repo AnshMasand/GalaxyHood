@@ -1,0 +1,16 @@
+.profit-loss-history-container {
+    margin-top: 20px;
+  }
+  
+  .profit-loss-history-chart {
+    height: 300px; /* Set the desired height of the chart */
+    /* Add any additional styles for the chart container */
+  }
+  
+  .profit-loss-history-chart .profit {
+    color: green;
+  }
+  
+  .profit-loss-history-chart .loss {
+    color: red;
+  }

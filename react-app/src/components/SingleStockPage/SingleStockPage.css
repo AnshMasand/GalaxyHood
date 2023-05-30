@@ -1,0 +1,54 @@
+.app-body-single {
+  display: flex;
+  height: 100vh;
+}
+
+.app-container-single {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  height: 100%;
+  padding: 20px 48px;
+  box-sizing: border-box;
+}
+
+
+.app-left {
+  margin-left: 400px; /* Adjust the value as per your preference */
+  margin-top: 50px;
+}
+
+.app-right {
+  margin-top: 50px;
+  margin-left: 100px; /* Adjust the value as per your preference */
+}
+
+.app-left {
+  flex: 1;
+}
+
+.app-right {
+  flex: 1;
+}
+
+.add-to-watch-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-list-modal-btn {
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+  cursor: pointer;
+  width: 100%;
+  max-width: 290px;
+  height: 50px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.add-list-modal-btn:hover {
+  background-color: #00c8071d;
+}

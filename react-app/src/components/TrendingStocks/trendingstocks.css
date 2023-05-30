@@ -1,0 +1,12 @@
+.trending-stocks-container {
+    margin-top: 20px;
+  }
+  
+  .trending-stocks-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .trending-stocks-list li {
+    margin-bottom: 10px;
+  }
